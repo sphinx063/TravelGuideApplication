@@ -14,8 +14,8 @@ namespace TravelServicesWCF
     // NOTE: In order to launch WCF Test Client for testing this service, please select WeatherForecast.svc or WeatherForecast.svc.cs at the Solution Explorer and start debugging.
     public class WeatherForecast : IWeatherForecast
     {
-        public const String WEATHER_API_KEY = "28bb156fe395a6c1430de832e36d32a5";
-        public const String ZIPCODE_API_KEY = "HLNhoNX6W7f0n740lUfbtAwu0K6tFRanCXE0KC6HJlH6sL7NGnZ9XwEYhKrWBBke";
+        public const String WEATHER_API_KEY = "WEATHER_API_KEY";
+        public const String ZIPCODE_API_KEY = "ZIPCODE_API_KEY";
         public const String MODE_XML = "xml";
         private String forecastString;
         private String zipcodeString;

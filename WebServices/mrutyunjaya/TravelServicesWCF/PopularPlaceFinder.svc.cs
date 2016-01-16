@@ -17,10 +17,10 @@ namespace TravelServicesWCF
     // NOTE: In order to launch WCF Test Client for testing this service, please select PopularPlaceFinder.svc or PopularPlaceFinder.svc.cs at the Solution Explorer and start debugging.
     public class PopularPlaceFinder : IPopularPlaceFinder
     {
-        public const String API_KEY = "IKQ2O7h_ZWsi0wzM-bE_Jw";
-	    public const String API_SECRET = "NbBACJHEKSRlcSngvGNj1le5xpI";
-	    public const String API_TOKEN = "6ZMHtzRA2PrkIWDV11FiWUKnQXCBSvF1";
-	    public const String API_TOKEN_SECRET = "FwfOl74e2AQMqpDMDN88SXcucTQ";
+        public const String API_KEY = "API_KEY";
+	    public const String API_SECRET = "API_SECRET";
+	    public const String API_TOKEN = "API_TOKEN";
+	    public const String API_TOKEN_SECRET = "API_TOKEN_SECRET";
         public const String YELP_BASE_URI = "http://api.yelp.com/v2/";
         public List<String> getNearByPopularPlaces(String cityName)
         {
