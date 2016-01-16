@@ -16,7 +16,7 @@ namespace TravelRESTful
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
     public class NearbyEventFinder : INearbyEventFinder
     {
-        public const String EVENTFUL_API_KEY = "tz4wxWPpv9BDkV9z";
+        public const String EVENTFUL_API_KEY = "YOUR_API_KEY";
         public const String EVENTFUL_BASE_URI = "http://api.eventful.com/rest/events/search";
        public List<EventDetails> getCurrentEvents(string cityName)
         {

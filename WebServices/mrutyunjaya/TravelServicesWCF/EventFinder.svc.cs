@@ -13,7 +13,7 @@ namespace TravelServicesWCF
     // NOTE: In order to launch WCF Test Client for testing this service, please select EventFinder.svc or EventFinder.svc.cs at the Solution Explorer and start debugging.
     public class EventFinder : IEventFinder
     {
-        public const String EVENTFUL_API_KEY = "tz4wxWPpv9BDkV9z";
+        public const String EVENTFUL_API_KEY = "API_KEY";
         public const String EVENTFUL_BASE_URI = "http://api.eventful.com/rest/events/search";
         
         public List<String> getCurrentEvents(string cityName)
