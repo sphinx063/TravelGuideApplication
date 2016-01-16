@@ -1,0 +1,11 @@
+c:\users\archjain\documents\visual studio 2013\Projects\TravelAdvisor\TravelAdvisor\obj\Debug\TravelAdvisor.csprojResolveAssemblyReference.cache
+c:\users\archjain\documents\visual studio 2013\Projects\TravelAdvisor\TravelAdvisor\bin\TravelAdvisor.dll.config
+c:\users\archjain\documents\visual studio 2013\Projects\TravelAdvisor\TravelAdvisor\bin\TravelAdvisor.dll
+c:\users\archjain\documents\visual studio 2013\Projects\TravelAdvisor\TravelAdvisor\bin\TravelAdvisor.pdb
+c:\users\archjain\documents\visual studio 2013\Projects\TravelAdvisor\TravelAdvisor\obj\Debug\TravelAdvisor.dll
+c:\users\archjain\documents\visual studio 2013\Projects\TravelAdvisor\TravelAdvisor\obj\Debug\TravelAdvisor.pdb
+C:\Users\archjain\Documents\Visual Studio 2013\Projects\TravelAdvisor\TravelAdvisor\bin\Newtonsoft.Json.dll
+C:\Users\archjain\Documents\Visual Studio 2013\Projects\TravelAdvisor\TravelAdvisor\bin\RestSharp.dll
+C:\Users\archjain\Documents\Visual Studio 2013\Projects\TravelAdvisor\TravelAdvisor\bin\YelpSharp.dll
+C:\Users\archjain\Documents\Visual Studio 2013\Projects\TravelAdvisor\TravelAdvisor\bin\Newtonsoft.Json.xml
+C:\Users\archjain\Documents\Visual Studio 2013\Projects\TravelAdvisor\TravelAdvisor\bin\RestSharp.xml
