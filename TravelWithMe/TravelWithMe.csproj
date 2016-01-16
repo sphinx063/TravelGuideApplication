@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F1122284-CBE0-4E0D-999A-397BB1B70303}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TravelWithMe</RootNamespace>
+    <AssemblyName>TravelWithMe</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MyDLL">
+      <HintPath>F:\MyDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\archit.pubxml" />
+    <None Include="Properties\PublishProfiles\rinku.pubxml" />
+    <None Include="Properties\PublishProfiles\TravelWithMePublish.pubxml" />
+    <None Include="Service References\CarService\CarRental.wsdl" />
+    <None Include="Service References\CarService\CarRental.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CarService\CarRental1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CarService\CarRental2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CrimeData\CrimeData.wsdl" />
+    <None Include="Service References\CrimeData\CrimeData.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CrimeData\CrimeData1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EventFinderService\EventFinder.wsdl" />
+    <None Include="Service References\EventFinderService\EventFinder.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EventFinderService\EventFinder1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EventFinderService\EventFinder2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\HotelService\HotelFinder.wsdl" />
+    <None Include="Service References\HotelService\HotelFinder.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\HotelService\HotelFinder1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\HotelService\HotelFinder2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ImageVerifierService\Service.wsdl" />
+    <None Include="Service References\ImageVerifierService\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ImageVerifierService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ImageVerifierService\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NearestStoreService\NearestStore.wsdl" />
+    <None Include="Service References\NearestStoreService\NearestStore.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NearestStoreService\NearestStore1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NewsFocusService\NewsFocus.wsdl" />
+    <None Include="Service References\NewsFocusService\NewsFocus.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NewsFocusService\NewsFocus1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NewsFocusService\NewsFocus2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TravelPlaces\PopularPlaceFinder.wsdl" />
+    <None Include="Service References\TravelPlaces\PopularPlaceFinder.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TravelPlaces\PopularPlaceFinder1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TravelPlaces\PopularPlaceFinder2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WaetherService\WeatherForecast.wsdl" />
+    <None Include="Service References\WaetherService\WeatherForecast.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WaetherService\WeatherForecast1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WaetherService\WeatherForecast2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminLogin.aspx" />
+    <Content Include="AdminPage.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="HeaderUserControl.ascx" />
+    <Content Include="hoteldetails.aspx" />
+    <Content Include="ImageVerifier.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="MemberPage.aspx" />
+    <None Include="Service References\EventFinderService\EventFinder.disco" />
+    <None Include="Service References\EventFinderService\configuration91.svcinfo" />
+    <None Include="Service References\EventFinderService\configuration.svcinfo" />
+    <None Include="Service References\EventFinderService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\TravelPlaces\PopularPlaceFinder.disco" />
+    <None Include="Service References\TravelPlaces\configuration91.svcinfo" />
+    <None Include="Service References\TravelPlaces\configuration.svcinfo" />
+    <None Include="Service References\TravelPlaces\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\CarService\CarRental.disco" />
+    <None Include="Service References\CarService\configuration91.svcinfo" />
+    <None Include="Service References\CarService\configuration.svcinfo" />
+    <None Include="Service References\CarService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\WaetherService\WeatherForecast.disco" />
+    <None Include="Service References\WaetherService\configuration91.svcinfo" />
+    <None Include="Service References\WaetherService\configuration.svcinfo" />
+    <None Include="Service References\WaetherService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\HotelService\HotelFinder.disco" />
+    <None Include="Service References\HotelService\configuration91.svcinfo" />
+    <None Include="Service References\HotelService\configuration.svcinfo" />
+    <None Include="Service References\HotelService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\NearestStoreService\NearestStore.disco" />
+    <None Include="Service References\NearestStoreService\configuration91.svcinfo" />
+    <None Include="Service References\NearestStoreService\configuration.svcinfo" />
+    <None Include="Service References\NearestStoreService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="MemberRegistration.aspx" />
+    <None Include="Service References\CrimeData\CrimeData.disco" />
+    <None Include="Service References\CrimeData\configuration91.svcinfo" />
+    <None Include="Service References\CrimeData\configuration.svcinfo" />
+    <None Include="Service References\CrimeData\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\NewsFocusService\NewsFocus.disco" />
+    <None Include="Service References\NewsFocusService\configuration91.svcinfo" />
+    <None Include="Service References\NewsFocusService\configuration.svcinfo" />
+    <None Include="Service References\NewsFocusService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ImageVerifierService\Service.disco" />
+    <None Include="Service References\ImageVerifierService\configuration91.svcinfo" />
+    <None Include="Service References\ImageVerifierService\configuration.svcinfo" />
+    <None Include="Service References\ImageVerifierService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="StaffLogin.aspx" />
+    <Content Include="StaffPage.aspx" />
+    <Content Include="StaffSignUp.aspx" />
+    <Content Include="StartPage.aspx" />
+    <Content Include="TravelInfo.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPage.aspx.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPage.aspx.designer.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HeaderUserControl.ascx.cs">
+      <DependentUpon>HeaderUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HeaderUserControl.ascx.designer.cs">
+      <DependentUpon>HeaderUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="hoteldetails.aspx.cs">
+      <DependentUpon>hoteldetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hoteldetails.aspx.designer.cs">
+      <DependentUpon>hoteldetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageVerifier.aspx.cs">
+      <DependentUpon>ImageVerifier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageVerifier.aspx.designer.cs">
+      <DependentUpon>ImageVerifier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPage.aspx.cs">
+      <DependentUpon>MemberPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPage.aspx.designer.cs">
+      <DependentUpon>MemberPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberRegistration.aspx.cs">
+      <DependentUpon>MemberRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberRegistration.aspx.designer.cs">
+      <DependentUpon>MemberRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\CarService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\CrimeData\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\EventFinderService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\HotelService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ImageVerifierService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\NearestStoreService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\NewsFocusService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\TravelPlaces\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WaetherService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="StaffLogin.aspx.cs">
+      <DependentUpon>StaffLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffLogin.aspx.designer.cs">
+      <DependentUpon>StaffLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffPage.aspx.cs">
+      <DependentUpon>StaffPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffPage.aspx.designer.cs">
+      <DependentUpon>StaffPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffSignUp.aspx.cs">
+      <DependentUpon>StaffSignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffSignUp.aspx.designer.cs">
+      <DependentUpon>StaffSignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StartPage.aspx.cs">
+      <DependentUpon>StartPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StartPage.aspx.designer.cs">
+      <DependentUpon>StartPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TravelInfo.aspx.cs">
+      <DependentUpon>TravelInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TravelInfo.aspx.designer.cs">
+      <DependentUpon>TravelInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XMLManipulator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\CarService\" />
+    <WCFMetadataStorage Include="Service References\CrimeData\" />
+    <WCFMetadataStorage Include="Service References\EventFinderService\" />
+    <WCFMetadataStorage Include="Service References\HotelService\" />
+    <WCFMetadataStorage Include="Service References\ImageVerifierService\" />
+    <WCFMetadataStorage Include="Service References\NearestStoreService\" />
+    <WCFMetadataStorage Include="Service References\NewsFocusService\" />
+    <WCFMetadataStorage Include="Service References\TravelPlaces\" />
+    <WCFMetadataStorage Include="Service References\WaetherService\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55342</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55342/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

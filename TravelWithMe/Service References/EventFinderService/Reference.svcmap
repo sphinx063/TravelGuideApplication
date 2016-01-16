@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b95bda80-59c5-4a32-a399-c3837f20a607" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://webstrar43.fulton.asu.edu/page0/EventFinder.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EventFinder.xsd" MetadataType="Schema" ID="f594e984-8232-4e51-b5fd-446c51218937" SourceId="1" SourceUrl="http://webstrar43.fulton.asu.edu/Page0/EventFinder.svc?xsd=xsd0" />
+    <MetadataFile FileName="EventFinder1.xsd" MetadataType="Schema" ID="29896a8d-6ae9-4483-a901-fa699a69b6e7" SourceId="1" SourceUrl="http://webstrar43.fulton.asu.edu/Page0/EventFinder.svc?xsd=xsd2" />
+    <MetadataFile FileName="EventFinder.wsdl" MetadataType="Wsdl" ID="35ddfc57-6f50-40ce-b3f4-16a137a88d9c" SourceId="1" SourceUrl="http://webstrar43.fulton.asu.edu/Page0/EventFinder.svc?wsdl" />
+    <MetadataFile FileName="EventFinder2.xsd" MetadataType="Schema" ID="73ba80c1-d1d9-4712-9569-19fc37ce6b02" SourceId="1" SourceUrl="http://webstrar43.fulton.asu.edu/Page0/EventFinder.svc?xsd=xsd1" />
+    <MetadataFile FileName="EventFinder.disco" MetadataType="Disco" ID="00277586-711e-455f-9781-fe934d6b9093" SourceId="1" SourceUrl="http://webstrar43.fulton.asu.edu/Page0/EventFinder.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

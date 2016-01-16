@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="611c0c53-b70a-4acf-9bf5-570fbb19c01d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://webstrar43.fulton.asu.edu/page0/PopularPlaceFinder.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PopularPlaceFinder.xsd" MetadataType="Schema" ID="94a23628-cc7e-4d97-bc7f-37bafafe31c4" SourceId="1" SourceUrl="http://webstrar43.fulton.asu.edu/Page0/PopularPlaceFinder.svc?xsd=xsd1" />
+    <MetadataFile FileName="PopularPlaceFinder1.xsd" MetadataType="Schema" ID="a6b1a820-cfad-41df-8fe1-666bb257cacd" SourceId="1" SourceUrl="http://webstrar43.fulton.asu.edu/Page0/PopularPlaceFinder.svc?xsd=xsd0" />
+    <MetadataFile FileName="PopularPlaceFinder.wsdl" MetadataType="Wsdl" ID="e5060a67-907e-4eae-9bd1-4859533d1305" SourceId="1" SourceUrl="http://webstrar43.fulton.asu.edu/Page0/PopularPlaceFinder.svc?wsdl" />
+    <MetadataFile FileName="PopularPlaceFinder2.xsd" MetadataType="Schema" ID="ddfb30f4-4ccf-47e9-86d1-0b10717b0bc7" SourceId="1" SourceUrl="http://webstrar43.fulton.asu.edu/Page0/PopularPlaceFinder.svc?xsd=xsd2" />
+    <MetadataFile FileName="PopularPlaceFinder.disco" MetadataType="Disco" ID="6acd6bd0-917a-451d-b68b-2d33b228f22b" SourceId="1" SourceUrl="http://webstrar43.fulton.asu.edu/Page0/PopularPlaceFinder.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
