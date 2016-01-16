@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\archjain\Desktop\TravelAdvisor</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/13/2015 20:36:08</publishTime>
+    </File>
+    <File Include="bin/RestSharp.dll">
+      <publishTime>11/13/2015 20:36:08</publishTime>
+    </File>
+    <File Include="bin/TravelAdvisor.dll">
+      <publishTime>11/22/2015 04:43:31</publishTime>
+    </File>
+    <File Include="bin/YelpSharp.dll">
+      <publishTime>11/13/2015 20:36:08</publishTime>
+    </File>
+    <File Include="CarRental.svc">
+      <publishTime>10/27/2015 12:22:42</publishTime>
+    </File>
+    <File Include="HotelFinder.svc">
+      <publishTime>11/13/2015 22:09:06</publishTime>
+    </File>
+    <File Include="NearestStore.svc">
+      <publishTime>10/27/2015 21:11:16</publishTime>
+    </File>
+    <File Include="NewsFocus.svc">
+      <publishTime>10/27/2015 11:48:47</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/13/2015 20:36:21</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>10/27/2015 11:48:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/22/2015 04:46:11</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
