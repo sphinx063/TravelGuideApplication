@@ -1,0 +1,11 @@
+c:\VSProjects\TravelServicesWCF\TravelServicesWCF\obj\Debug\TravelServicesWCF.csprojResolveAssemblyReference.cache
+c:\VSProjects\TravelServicesWCF\TravelServicesWCF\bin\TravelServicesWCF.dll.config
+c:\VSProjects\TravelServicesWCF\TravelServicesWCF\bin\TravelServicesWCF.dll
+c:\VSProjects\TravelServicesWCF\TravelServicesWCF\bin\TravelServicesWCF.pdb
+c:\VSProjects\TravelServicesWCF\TravelServicesWCF\bin\Newtonsoft.Json.dll
+c:\VSProjects\TravelServicesWCF\TravelServicesWCF\bin\Newtonsoft.Json.xml
+c:\VSProjects\TravelServicesWCF\TravelServicesWCF\obj\Debug\TravelServicesWCF.dll
+c:\VSProjects\TravelServicesWCF\TravelServicesWCF\obj\Debug\TravelServicesWCF.pdb
+c:\VSProjects\TravelServicesWCF\TravelServicesWCF\bin\RestSharp.dll
+c:\VSProjects\TravelServicesWCF\TravelServicesWCF\bin\YelpSharp.dll
+c:\VSProjects\TravelServicesWCF\TravelServicesWCF\bin\RestSharp.xml

@@ -1,0 +1,6 @@
+c:\VSProjects\TravelServicesWCF\TravelRESTful\bin\TravelRESTful.dll.config
+c:\VSProjects\TravelServicesWCF\TravelRESTful\bin\TravelRESTful.dll
+c:\VSProjects\TravelServicesWCF\TravelRESTful\bin\TravelRESTful.pdb
+c:\VSProjects\TravelServicesWCF\TravelRESTful\obj\Debug\TravelRESTful.csprojResolveAssemblyReference.cache
+c:\VSProjects\TravelServicesWCF\TravelRESTful\obj\Debug\TravelRESTful.dll
+c:\VSProjects\TravelServicesWCF\TravelRESTful\obj\Debug\TravelRESTful.pdb
